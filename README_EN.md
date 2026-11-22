@@ -38,6 +38,8 @@ The full prompt for the image above, labelled by the skill's line structure, ver
 
 Note the background line: the treeline *dissolves layer by layer* (dark detailed trunks → soft silhouettes → pale gold, gone before the sky) instead of a flat "blurry background"; in the pose line, hands, ears, and tail each have their own action — no symmetric standing-at-attention.
 
+Also note: swapping the artist string with the same prompt changes the resulting style and details noticeably — this example demonstrates structure and writing, so calibrate expectations to your own artist string when reproducing it.
+
 ## Files
 
 - `SKILL.md` — the rules: three-line split, delivery habits, negative-prompt categories, outfit changes.
