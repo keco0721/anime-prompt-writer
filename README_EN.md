@@ -40,6 +40,26 @@ Note the background line: the treeline *dissolves layer by layer* (dark detailed
 
 Also note: swapping the artist string with the same prompt changes the resulting style and details noticeably — this example demonstrates structure and writing, so calibrate expectations to your own artist string when reproducing it.
 
+![Example 2: Mostima, starfield void](examples/example-2-mostima-starfield.png)
+
+Example 2's full prompt:
+
+```
+[character] masterpiece, best quality, mostima (arknights), arknights, 1girl, solo, blue hair, long hair, hair between eyes, blue eyes, demon horns, black horns, floating halo, black jacket, open jacket, white shirt, long sleeves, detached wings, energy wings, glowing wings
+
+[background] deep navy void, a cold cyan nebula confined to the upper quarter, fading by real atmospheric falloff rather than a mask: star density drops first and the clusters break into loose scattered stars, then the nebula desaturates from saturated cyan to pale steel grey, then the last sparks lose contrast one by one and dissolve into drifting haze, no visible horizon, faint concentric rings of pale cyan light spreading outward behind her
+
+[lighting] strong backlight from behind her, cold cyan and ice blue rim tracing her silhouette against the dark, hard key from upper left with cool violet shadow on the right half, soft fill keeping shadow detail on her face, subsurface scattering, strong bloom on the wing edges and the halo, light particles drifting upward, low-key
+
+[camera] full body, centered composition, eye level, 50mm, full figure uncropped
+
+[pose] standing, weight on her back leg, one hand raised palm up as if holding a stopped moment, head tilted slightly, half-lidded gaze at viewer, lips slightly parted
+
+[style tail] cel shading, thin lineart, painterly rendering, high clarity, low noise, very aesthetic, absurdres, detailed lighting
+```
+
+Note: this is the SKILL's standard play for a starfield base — the nebula stays in the upper quarter and dissolves in density → saturation → contrast order; the dark base is separated from the figure by cold rim light (low-key). A deliberate cool counterpart to Example 1's warm high-key.
+
 ## Files
 
 - `SKILL.md` — the rules: three-line split, delivery habits, negative-prompt categories, outfit changes.

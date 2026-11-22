@@ -40,6 +40,26 @@
 
 注：同一组提示词更换画师串，出图的风格与细节会有明显差异——本例演示的是结构与写法，复现时请按自己的画师串预期效果。
 
+![示例2：莫斯提马，星空虚空](examples/example-2-mostima-starfield.png)
+
+示例 2 的完整提示词：
+
+```
+【角色行】masterpiece, best quality, mostima (arknights), arknights, 1girl, solo, blue hair, long hair, hair between eyes, blue eyes, demon horns, black horns, floating halo, black jacket, open jacket, white shirt, long sleeves, detached wings, energy wings, glowing wings
+
+【背景行】deep navy void, a cold cyan nebula confined to the upper quarter, fading by real atmospheric falloff rather than a mask: star density drops first and the clusters break into loose scattered stars, then the nebula desaturates from saturated cyan to pale steel grey, then the last sparks lose contrast one by one and dissolve into drifting haze, no visible horizon, faint concentric rings of pale cyan light spreading outward behind her
+
+【光线行】strong backlight from behind her, cold cyan and ice blue rim tracing her silhouette against the dark, hard key from upper left with cool violet shadow on the right half, soft fill keeping shadow detail on her face, subsurface scattering, strong bloom on the wing edges and the halo, light particles drifting upward, low-key
+
+【镜头行】full body, centered composition, eye level, 50mm, full figure uncropped
+
+【姿态行】standing, weight on her back leg, one hand raised palm up as if holding a stopped moment, head tilted slightly, half-lidded gaze at viewer, lips slightly parted
+
+【画风尾】cel shading, thin lineart, painterly rendering, high clarity, low noise, very aesthetic, absurdres, detailed lighting
+```
+
+看点：这张是 SKILL 里「星空/银河」底的标准打法——星云只占上方四分之一，按密度→饱和→对比的顺序溶进雾里；深色底靠冷色轮廓光把人从背景里勾出来（low-key）。和示例 1 的暖色高调正好是一对。
+
 ## 文件
 
 - `SKILL.md` —— 规则正文：三行分工、交付习惯、负向块分类、换装处理。
